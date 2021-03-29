@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="310dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/bmjua"
+        android:text="- 이름과 이메일, 전화번호 입력만으로 간편하게 나눔공간에 가입하실 수 있습니다."
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="310dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="7dp"
+        android:fontFamily="@font/bmjua"
+        android:text="- 회원가입에 드는 비용 없이 만 14세 이상이라면 누구나 회원가입이 가능합니다."
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="26dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="23dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DTV_price"
+        app:srcCompat="@drawable/ic_headset_mic_black_24dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="26dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="54dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_headset_mic_black_24dp" />
+
+    <TextView
+        android:id="@+id/DTV_title"
+        android:layout_width="182dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="56dp"
+        android:fontFamily="@font/bmjua"
+        android:text="회원가입은 어떻게 하나요?"
+        android:textColor="#78c4d4"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="26dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="26dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:srcCompat="@drawable/ic_headset_mic_black_24dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/bmjua"
+        android:text="마이페이지란?"
+        android:textColor="#78c4d4"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/DTV_pax"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/bmjua"
+        android:text="회원탈퇴는 어떻게 하나요?"
+        android:textColor="#78c4d4"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/DTV_price" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="310dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/bmjua"
+        android:text="- 회원탈퇴는 PC에서만 가능하며, 회원탈퇴가 완료되는 즉시 회원정보가 삭제됩니다."
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="310dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="6dp"
+        android:fontFamily="@font/bmjua"
+        android:text="(회원탈퇴 방법) 로그인 → 마이페이지 → 회원탈퇴"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="310dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/bmjua"
+        android:text="-마이페이지는 나눔공간 회원에게 생성되는 고유 페이지입니다."
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/DTV_price"
+        android:layout_width="310dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="7dp"
+        android:fontFamily="@font/bmjua"
+        android:text="- 마이페이지에서는 회원정보 수정이나, 본인인증 여부 등을 확인할 수 있으며, 마이페이지에서 다양한 활동내역을 확인할 수 있습니다."
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

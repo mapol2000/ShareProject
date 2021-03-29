@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="themFont">
+
+        <item name="android:fontFamily">@font/bmjua</item>
+
+    </style>
+
+
+</resources>

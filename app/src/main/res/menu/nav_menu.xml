@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_home"
+        android:title="홈"
+        android:icon="@drawable/ic_home_black_24dp"
+        />
+    <item
+        android:id="@+id/menu_share"
+        android:title="장소쉐어"
+        android:icon="@drawable/ic_shere_black_24dp"
+        />
+    <item
+        android:id="@+id/menu_magazine"
+        android:title="매거진"
+        android:icon="@drawable/ic_magazine_black_24dp"
+        />
+    <item
+        android:id="@+id/menu_mypage"
+        android:title="마이페이지"
+        android:icon="@drawable/ic_mypage_balck_24dp"
+        />
+    <item
+        android:id="@+id/menu_plus"
+        android:title="장소등록"
+        android:icon="@drawable/ic_plus_black_24dp"
+        />
+</menu>

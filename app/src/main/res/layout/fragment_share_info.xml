@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShareInfo">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="10dp">
+
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="북마크"
+            android:textStyle="bold"
+            android:background="@drawable/border"/>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="63dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:text="공유"
+            android:textStyle="bold"
+            android:background="@drawable/border"/>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="166dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="톡으로 문의하기"
+            android:textStyle="bold"
+            android:background="@drawable/border"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="659dp"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="402dp"
+                android:layout_margin="30dp"
+                android:src="@drawable/testimg1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="77dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView1111"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="공간 카테고리"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/imageButton7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:src="@android:drawable/btn_star" />
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="320dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="개인 전시공간"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="77dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="공간 층수 평수"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/imageButton8"
+                        android:layout_width="44dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:src="@android:drawable/btn_star" />
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:text="1층"
+                        android:textSize="18sp" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton7_1"
+                        android:layout_width="47dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:src="@android:drawable/btn_star" />
+
+                    <TextView
+                        android:layout_width="163dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="50평이상"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="공간키워드"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/imageButton9"
+                        android:layout_width="44dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:src="@android:drawable/btn_star" />
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:text="개인운영"
+                        android:textSize="18sp" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton10"
+                        android:layout_width="47dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:src="@android:drawable/btn_star" />
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="163dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:text="단독건물"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton9_1"
+                android:layout_width="44dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:src="@android:drawable/btn_star" />
+
+            <TextView
+                android:id="@+id/textView11_1"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="역세권"
+                android:textSize="18sp" />
+
+            <ImageButton
+                android:id="@+id/imageButton10_1"
+                android:layout_width="47dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:src="@android:drawable/btn_star" />
+
+            <TextView
+                android:id="@+id/textView12_1"
+                android:layout_width="163dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="주택"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

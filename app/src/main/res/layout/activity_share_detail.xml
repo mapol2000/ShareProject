@@ -1,0 +1,150 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.synnapps.carouselview.CarouselView
+            android:id="@+id/carouselView1"
+            android:layout_width="388dp"
+            android:layout_height="189dp"
+            android:layout_margin="10dp"
+            app:fillColor="#78c4d4"
+            app:pageColor="#00000000"
+            app:radius="4dp"
+            app:slideInterval="2000"
+            app:strokeColor="#FF777777"
+            app:strokeWidth="1dp"></com.synnapps.carouselview.CarouselView>
+
+        <TextView
+            android:id="@+id/DTV_title"
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:text="성북구 월곡동 스페이스 원-오프_전시작 대관"
+            android:textSize="30sp"
+            android:layout_margin="10dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="임대료" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="최대 인원" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/DTV_price"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="800,000원"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/DTV_pax"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="예) 10명"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/detail_btnCall"
+                android:layout_width="134dp"
+                android:layout_height="250dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:background="#78D4C4"
+                app:srcCompat="@android:drawable/stat_sys_phone_call"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/sh_Info"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#FFFFFF"
+                android:text="기본정보"
+                android:textAllCaps="false"
+                android:textColor="#0B0A0A"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/sh_Info2"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#FFFFFF"
+                android:textAllCaps="false"
+                android:textColor="#0B0A0A"
+                android:text="상세정보"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:id="@+id/sh_Review"
+                android:layout_width="78dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#FFFFFF"
+                android:text="리뷰"
+                android:textAllCaps="false"
+                android:textColor="#070707"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/sh_detail_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp" />
+    </LinearLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
